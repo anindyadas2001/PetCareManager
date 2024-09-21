@@ -31,6 +31,7 @@ spring.datasource.password=<PASSWORD>
 > Ensure PostgreSQL is installed and running on your local/remote server before proceeding.
 
 ### 3️⃣ **Build and Run the Application**
+- To build and run the application, execute the following Maven command:
 ```bash
 ./mvnw spring-boot:run
 ```
@@ -44,17 +45,41 @@ spring.datasource.password=<PASSWORD>
 
 ### 5️⃣ **CI/CD with Jenkins**
 - Set up a Jenkins pipeline using the `Jenkinsfile` provided in the repository to automate build, test, and deployment processes.
+```groovy
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh './mvnw clean package'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh './mvnw test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                // Deployment steps (Tomcat, AWS, etc.)
+            }
+        }
+    }
+}
+```
 
 ### 6️⃣ **Infrastructure Setup with Ansible**
 - Use Ansible playbooks to provision AWS resources like EC2, RDS, and S3:
 ```bash
 ansible-playbook -i inventory setup.yml
 ```
+- Make sure to define your EC2 instances, configure RDS for PostgreSQL, and store static assets in S3.
 
 ### 7️⃣ **Monitoring and Code Quality**
-- Set up SonarQube for static code analysis:
+- Set up SonarQube to ensure high-quality code by running static analysis. Use the following command to scan your code:
 ```bash
-sonar-scanner -Dsonar.projectKey=spring-petcare-manager
+sonar-scanner -Dsonar.projectKey=PetCareManager
+
 ```
 
 ### 📋 **Project Management**
@@ -64,6 +89,6 @@ sonar-scanner -Dsonar.projectKey=spring-petcare-manager
 ` You are most welcome contributions! Please open an issue or submit a pull request for enhancements or bug fixes. `
 
 ### 📝 **Project Highlights**
-- Developed a Spring Boot web application and deployed using Tomcat.
-- Automated CI/CD with Jenkins, SonarQube, and AWS services.
-- Provisioned cloud infrastructure with Ansible using Infrastructure as Code (IaC) principles.
+- Developed a Spring Boot web application and deployed it using Apache Tomcat.
+- Automated CI/CD with Jenkins, SonarQube, and deployed services on AWS.
+- Used Ansible for automating infrastructure provisioning with Infrastructure as Code (IaC).
