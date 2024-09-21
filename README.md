@@ -89,6 +89,12 @@ sonar-scanner -Dsonar.projectKey=PetCareManager
 ` You are most welcome contributions! Please open an issue or submit a pull request for enhancements or bug fixes. `
 
 ### 📝 **Project Highlights**
-- Developed a Spring Boot web application and deployed it using Apache Tomcat.
-- Automated CI/CD with Jenkins, SonarQube, and deployed services on AWS.
-- Used Ansible for automating infrastructure provisioning with Infrastructure as Code (IaC).
+- Built a scalable Spring Boot web application and deployed it on Apache Tomcat.
+- Automated build, test, and deployment using a Jenkins CI/CD pipeline and SonarQube for code quality checks.
+- Provisioned and managed AWS infrastructure using Ansible with a focus on Infrastructure as Code (IaC).
+
+### **Useful Links**
+[Jenkins Documentation](https://www.jenkins.io/doc/)
+[SonarQube Documentation](https://docs.sonarqube.org/latest/)
+[Ansible Documentation](https://docs.ansible.com/)
+[Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
