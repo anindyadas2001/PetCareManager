@@ -9,7 +9,7 @@
 [![Ansible](https://img.shields.io/badge/Ansible-IaC-red)](https://www.ansible.com/)
 [![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)](https://aws.amazon.com/)
 
-**PetCare Manager** is a web application built with Spring Boot, designed to manage pet care services such as Pet Owners, Pets, Veterinarians, and Appointments. The backend is powered by PostgreSQL, and the app is deployed using Tomcat, integrated with Jenkins for CI/CD automation, and SonarQube for code quality checks. The project utilizes AWS cloud infrastructure for deployment and Ansible for Infrastructure as Code (IaC).
+[PetCare Manager] (https://github.com/anindyadas2001/spring-petclinic) is a web application built with Spring Boot, designed to manage pet care services such as Pet Owners, Pets, Veterinarians, and Appointments. The backend is powered by PostgreSQL, and the app is deployed using Tomcat, integrated with Jenkins for CI/CD automation, and SonarQube for code quality checks. The project utilizes AWS cloud infrastructure for deployment and Ansible for Infrastructure as Code (IaC).
 
 ---
 
