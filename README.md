@@ -103,9 +103,9 @@ pipeline {
     }
 }
 ```
-> [!Nte]
+> [!Note]
 > Use Jenkins to schedule automated builds on every commit.
-
+<br>
 ### 6️⃣ **Infrastructure Setup with Ansible**
 - Provision the necessary AWS infrastructure using Ansible:
     - EC2: To host the web application.
