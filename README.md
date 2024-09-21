@@ -73,8 +73,8 @@ spring.datasource.password=<PASSWORD>
     - Place the `war` file inside the `Tomcat/webapps` directory.
     - Start/restart the Tomcat server.
 
-> [!Tip]
-> ou can monitor the deployment at `http://<your-server-ip>:8080/<your-app-context>`
+> [!Important]
+> You can monitor the deployment at `http://<your-server-ip>:8080/<your-app-context>`
 - Place the `war` file in the Tomcat `webapps/` directory.
 
 ### 5️⃣ **CI/CD with Jenkins**
@@ -103,7 +103,7 @@ pipeline {
     }
 }
 ```
-> [!Tip]
+> [!Nte]
 > Use Jenkins to schedule automated builds on every commit.
 
 ### 6️⃣ **Infrastructure Setup with Ansible**
@@ -115,7 +115,7 @@ pipeline {
 ```bash
 ansible-playbook -i inventory setup.yml
 ```
-> [!Tip]
+> [!Note]
 > Ensure your AWS credentials are configured and the necessary IAM roles are in place before running the playbook.
 
 ### 7️⃣ **Monitoring and Code Quality**
