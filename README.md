@@ -41,12 +41,6 @@
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/spring-petcare-manager.git
-cd spring-petcare-manager
-
-
-### 1️⃣ **Clone the Repository**
-```bash
 git clone https://github.com/anindyadas2001/PetCareManager.git
 cd PetCareManager
 ```
