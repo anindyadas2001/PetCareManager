@@ -11,9 +11,7 @@
 ![License](https://img.shields.io/github/license/your-username/spring-petcare-manager)
 
 ``` Description
-[Spring PetCare Manager](https://github.com/anindyadas2001/spring-petclinic) is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records. <br/>
-The backend is powered by PostgreSQL, and the app is deployed using Tomcat, integrated with Jenkins CI/CD pipeline, and SonarQube for code quality checks. <br/> 
-The project leverages various AWS services for deployment and Ansible for Infrastructure as Code (IaC). <br/>
+[Spring PetCare Manager](https://github.com/anindyadas2001/spring-petclinic) is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records. The backend is powered by PostgreSQL, and the app is deployed using Tomcat, integrated with Jenkins CI/CD pipeline, and SonarQube for code quality checks.The project leverages various AWS services for deployment and Ansible for Infrastructure as Code (IaC).
 ```
 
 ## 🎯 **Features**
