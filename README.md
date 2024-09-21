@@ -69,14 +69,19 @@ pipeline {
 ```
 
 ### 6️⃣ **Infrastructure Setup with Ansible**
-- Use Ansible playbooks to provision AWS resources like EC2, RDS, and S3:
+- Provision the necessary AWS infrastructure using Ansible:
+    - EC2: To host the web application.
+    - RDS: To manage the PostgreSQL database.
+    - S3: For storing static files or backups.
+- Run the Ansible playbook for infrastructure provisioning:
 ```bash
 ansible-playbook -i inventory setup.yml
 ```
 - Make sure to define your EC2 instances, configure RDS for PostgreSQL, and store static assets in S3.
 
 ### 7️⃣ **Monitoring and Code Quality**
-- Set up SonarQube to ensure high-quality code by running static analysis. Use the following command to scan your code:
+- Use SonarQube to ensure code quality and reduce technical debt.
+- Set up SonarQube by running the following command:
 ```bash
 sonar-scanner -Dsonar.projectKey=PetCareManager
 
@@ -100,13 +105,4 @@ sonar-scanner -Dsonar.projectKey=PetCareManager
 - [SonarQube Documentation](https://docs.sonarqube.org/latest/)
 - [Ansible Documentation](https://docs.ansible.com/)
 - [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
-
-### Key Improvements:
-1. **Icons and Headers**: Added emojis to make it more visually engaging.
-2. **Technical Tips**: Included useful tips and notes to help users better understand the context and process.
-3. **Technological Clarity**: Provided detailed explanations for each tool used (PostgreSQL, Tomcat, Jenkins, SonarQube, AWS, and Ansible).
-4. **Links**: Added external documentation links for further reading and understanding.
-5. **Better Structure**: Each section is separated and explained clearly for ease of understanding.
-
-This version will look more professional, informative, and user-friendly on GitHub.
 
