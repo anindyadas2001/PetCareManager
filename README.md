@@ -35,16 +35,26 @@ spring.datasource.password=<PASSWORD>
 ```bash
 ./mvnw spring-boot:run
 ```
+>[!Tip:]
+>You can access the running application at `http://localhost:8080` after successful execution.
 
 ### 4️⃣ **Deploy on Tomcat**
 - Package the application into a WAR file and deploy it on Tomcat:
 ```bash
 ./mvnw clean package
 ```
+- Deploy the WAR file on the Apache Tomcat web server:
+    - Place the `war` file inside the `Tomcat/webapps` directory.
+    - Start/restart the Tomcat server.
+
+>[!Tip:]
+>You can monitor the deployment at `http://<your-server-ip>:8080/<your-app-context>`
 - Place the `war` file in the Tomcat `webapps/` directory.
 
 ### 5️⃣ **CI/CD with Jenkins**
-- Set up a Jenkins pipeline using the `Jenkinsfile` provided in the repository to automate build, test, and deployment processes.
+- Create a new Jenkins pipeline project.
+- Connect your GitHub repository and configure automatic triggers.
+- Define build steps for packaging and deploying the WAR file.
 ```groovy
 pipeline {
     agent any
@@ -67,6 +77,8 @@ pipeline {
     }
 }
 ```
+>[!Tip:]
+>Use Jenkins to schedule automated builds on every commit.
 
 ### 6️⃣ **Infrastructure Setup with Ansible**
 - Provision the necessary AWS infrastructure using Ansible:
@@ -77,7 +89,8 @@ pipeline {
 ```bash
 ansible-playbook -i inventory setup.yml
 ```
-- Make sure to define your EC2 instances, configure RDS for PostgreSQL, and store static assets in S3.
+>[!Tip:]
+>Ensure your AWS credentials are configured and the necessary IAM roles are in place before running the playbook.
 
 ### 7️⃣ **Monitoring and Code Quality**
 - Use SonarQube to ensure code quality and reduce technical debt.
