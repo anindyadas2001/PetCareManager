@@ -37,20 +37,25 @@
 
 ![System Architecture](https://not uploaded uet)
 
-## 🚀 **Setup Instructions**
+## 🚀 **Getting Started**
 
 ### 1️⃣ **Clone the Repository**
+To get started with the project, clone the repository using the following command:
 ```bash
 git clone https://github.com/your-username/spring-petcare-manager.git
 cd spring-petcare-manager
 ```
-### 2️⃣ **Database Configuration**
-- Update the application.properties file with your PostgreSQL credentials:
+
+### 2️⃣ **Database Configuration (PostgreSQL)**
+- Navigate to the `src/main/resources` directory and locate the `application.properties` file.
+- Update it with your PostgreSQL credentials:
 ```properties
 spring.datasource.url=jdbc:postgresql://<DB_HOST>:<DB_PORT>/<DB_NAME>
 spring.datasource.username=<USERNAME>
 spring.datasource.password=<PASSWORD>
 ```
+> [Note!]
+> Ensure PostgreSQL is installed and running on your local/remote server before proceeding.
 
 ### 3️⃣ **Build and Run the Application**
 ```bash
