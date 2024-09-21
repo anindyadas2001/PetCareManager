@@ -54,7 +54,7 @@ spring.datasource.url=jdbc:postgresql://<DB_HOST>:<DB_PORT>/<DB_NAME>
 spring.datasource.username=<USERNAME>
 spring.datasource.password=<PASSWORD>
 ```
-> [Note!]
+> [!Note]
 > Ensure PostgreSQL is installed and running on your local/remote server before proceeding.
 
 ### 3️⃣ **Build and Run the Application**
