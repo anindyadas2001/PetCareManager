@@ -45,7 +45,7 @@ git clone https://github.com/your-username/spring-petcare-manager.git
 cd spring-petcare-manager
 ```
 ### 2️⃣ **Database Configuration**
-[x]Update the application.properties file with your PostgreSQL credentials:
+- Update the application.properties file with your PostgreSQL credentials:
 ```bash
 spring.datasource.url=jdbc:postgresql://<DB_HOST>:<DB_PORT>/<DB_NAME>
 spring.datasource.username=<USERNAME>
