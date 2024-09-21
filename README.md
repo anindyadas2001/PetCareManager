@@ -86,7 +86,9 @@ sonar-scanner -Dsonar.projectKey=PetCareManager
 - Track progress, database schema, and tasks using Notion Dashboard.
 
 ### 🤝 **Contributions**
-` You are most welcome contributions! Please open an issue or submit a pull request for enhancements or bug fixes. `
+`You are welcome contributions! Please feel free to:`
+- Open an issue for any bugs or suggestions.
+- Submit a pull request to improve the application.
 
 ### 📝 **Project Highlights**
 - Built a scalable Spring Boot web application and deployed it on Apache Tomcat.
@@ -94,7 +96,17 @@ sonar-scanner -Dsonar.projectKey=PetCareManager
 - Provisioned and managed AWS infrastructure using Ansible with a focus on Infrastructure as Code (IaC).
 
 ### **Useful Links**
-[Jenkins Documentation](https://www.jenkins.io/doc/)
-[SonarQube Documentation](https://docs.sonarqube.org/latest/)
-[Ansible Documentation](https://docs.ansible.com/)
-[Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+- [Jenkins Documentation](https://www.jenkins.io/doc/)
+- [SonarQube Documentation](https://docs.sonarqube.org/latest/)
+- [Ansible Documentation](https://docs.ansible.com/)
+- [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
+
+### Key Improvements:
+1. **Icons and Headers**: Added emojis to make it more visually engaging.
+2. **Technical Tips**: Included useful tips and notes to help users better understand the context and process.
+3. **Technological Clarity**: Provided detailed explanations for each tool used (PostgreSQL, Tomcat, Jenkins, SonarQube, AWS, and Ansible).
+4. **Links**: Added external documentation links for further reading and understanding.
+5. **Better Structure**: Each section is separated and explained clearly for ease of understanding.
+
+This version will look more professional, informative, and user-friendly on GitHub.
+
