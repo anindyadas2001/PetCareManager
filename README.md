@@ -35,7 +35,7 @@
 
 ## 🌐 **System Architecture**
 
-![System Architecture](https://your-link-to-architecture-diagram.png)
+![System Architecture](https://not uploaded uet)
 
 ## 🚀 **Setup Instructions**
 
@@ -72,3 +72,20 @@ spring.datasource.password=<PASSWORD>
 ```bash
 ansible-playbook -i inventory setup.yml
 ```
+
+### 7️⃣ **Monitoring and Code Quality**
+- Set up SonarQube for static code analysis:
+```bash
+sonar-scanner -Dsonar.projectKey=spring-petcare-manager
+```
+
+### 📋 **Project Management**
+- Track progress, database schema, and tasks using Notion Dashboard.
+
+### 🤝 **Contributions**
+` You are most welcome contributions! Please open an issue or submit a pull request for enhancements or bug fixes. `
+
+### 📝 **Project Highlights**
+- Developed a Spring Boot web application and deployed using Tomcat.
+- Automated CI/CD with Jenkins, SonarQube, and AWS services.
+- Provisioned cloud infrastructure with Ansible using Infrastructure as Code (IaC) principles.
