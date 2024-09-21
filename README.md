@@ -35,7 +35,7 @@
 
 ## 🌐 **System Architecture**
 
-![System Architecture](https://not.uploaded.et.png)
+![System Architecture](https://not. uploaded. et.png)
 
 ## 🚀 **Setup Instructions**
 
