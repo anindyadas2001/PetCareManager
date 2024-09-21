@@ -45,6 +45,7 @@ git clone https://github.com/anindyadas2001/PetCareManager.git
 cd PetCareManager
 ```
 
+
 ### 2️⃣ **Database Configuration (PostgreSQL)**
 - Navigate to the `src/main/resources` directory and locate the `application.properties` file.
 - Update it with your PostgreSQL credentials:
@@ -56,6 +57,7 @@ spring.datasource.password=<PASSWORD>
 > [!Note]
 > Ensure PostgreSQL is installed and running on your local/remote server before proceeding.
 
+
 ### 3️⃣ **Build and Run the Application**
 - To build and run the application, execute the following Maven command:
 ```bash
@@ -63,6 +65,7 @@ spring.datasource.password=<PASSWORD>
 ```
 > [!Tip]
 > You can access the running application at `http://localhost:8080` after successful execution.
+
 
 ### 4️⃣ **Deploy on Tomcat**
 - Package the application into a WAR file and deploy it on Tomcat:
@@ -76,6 +79,7 @@ spring.datasource.password=<PASSWORD>
 > [!Important]
 > You can monitor the deployment at `http://<your-server-ip>:8080/<your-app-context>`
 - Place the `war` file in the Tomcat `webapps/` directory.
+
 
 ### 5️⃣ **CI/CD with Jenkins**
 - Create a new Jenkins pipeline project.
@@ -105,7 +109,8 @@ pipeline {
 ```
 > [!Note]
 > Use Jenkins to schedule automated builds on every commit.
-<br>
+
+
 ### 6️⃣ **Infrastructure Setup with Ansible**
 - Provision the necessary AWS infrastructure using Ansible:
     - EC2: To host the web application.
@@ -117,6 +122,7 @@ ansible-playbook -i inventory setup.yml
 ```
 > [!Note]
 > Ensure your AWS credentials are configured and the necessary IAM roles are in place before running the playbook.
+
 
 ### 7️⃣ **Monitoring and Code Quality**
 - Use SonarQube to ensure code quality and reduce technical debt.
