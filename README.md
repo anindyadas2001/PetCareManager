@@ -46,9 +46,29 @@ cd spring-petcare-manager
 ```
 ### 2️⃣ **Database Configuration**
 - Update the application.properties file with your PostgreSQL credentials:
-```bash
+```properties
 spring.datasource.url=jdbc:postgresql://<DB_HOST>:<DB_PORT>/<DB_NAME>
 spring.datasource.username=<USERNAME>
 spring.datasource.password=<PASSWORD>
 ```
 
+### 3️⃣ **Build and Run the Application**
+```bash
+./mvnw spring-boot:run
+```
+
+### 4️⃣ **Deploy on Tomcat**
+- Package the application into a WAR file and deploy it on Tomcat:
+```bash
+./mvnw clean package
+```
+- Place the `war` file in the Tomcat `webapps/` directory.
+
+### 5️⃣ **CI/CD with Jenkins**
+- Set up a Jenkins pipeline using the `Jenkinsfile` provided in the repository to automate build, test, and deployment processes.
+
+### 6️⃣ **Infrastructure Setup with Ansible**
+- Use Ansible playbooks to provision AWS resources like EC2, RDS, and S3:
+```bash
+ansible-playbook -i inventory setup.yml
+```
