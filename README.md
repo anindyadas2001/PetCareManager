@@ -1,5 +1,5 @@
 # 🐾 Spring PetCare Manager 
-⭐` The Project is under Dvelopment, to be uploded and made online by 25thSept.` `The overview is provided for now `
+⭐` The Project is under Dvelopment, v1 to beuploded and made online by 25thSept.` `The overview is provided for now `
 
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
