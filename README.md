@@ -21,7 +21,7 @@
 
 
 ## 🎯 **Features**
-- **Entity Management**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
+[x] **Entity Management**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
 - **Database**: PostgreSQL for handling interconnected entities with relational data models.
 - **CI/CD**: Automated build and deployment using Jenkins.
 - **Code Quality**: Continuous monitoring and analysis via SonarQube.
