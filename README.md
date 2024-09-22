@@ -1,5 +1,6 @@
 # 🐾 Spring PetCare Manager 
-`under Dvelopment, to be uploded 25thSept. `
+` The Project is under Dvelopment, to be uploded 25thSept.
+The overview is provided for now `
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
