@@ -1,5 +1,5 @@
 # 🐾 Spring PetCare Manager 
-` The Project is under Dvelopment, to be uploded 25thSept.
+` The Project is under Dvelopment, to be uploded 25thSept. <b/>
 The overview is provided for now `
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
