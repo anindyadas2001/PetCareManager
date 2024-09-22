@@ -21,13 +21,13 @@
 
 
 ## 🎯 **Features**
-[x] **Entity Management**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
-- **Database**: PostgreSQL for handling interconnected entities with relational data models.
-- **CI/CD**: Automated build and deployment using Jenkins.
-- **Code Quality**: Continuous monitoring and analysis via SonarQube.
-- **AWS Integration**: EC2 for hosting, RDS for PostgreSQL, and S3 for asset storage.
-- **Ansible for IaC**: Automate provisioning of AWS infrastructure and environment setup.
-- **Linux Shell & Networking**: Basic Linux and networking configurations for server management.
+- [x] **Entity Management**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
+- [ ] **Database**: PostgreSQL for handling interconnected entities with relational data models.
+- [ ] **CI/CD**: Automated build and deployment using Jenkins.
+- [ ] **Code Quality**: Continuous monitoring and analysis via SonarQube.
+- [ ] **AWS Integration**: EC2 for hosting, RDS for PostgreSQL, and S3 for asset storage.
+- [ ] **Ansible for IaC**: Automate provisioning of AWS infrastructure and environment setup.
+- [ ] **Linux Shell & Networking**: Basic Linux and networking configurations for server management.
 
 ## 🛠️ **Technologies**
 | Technology            | Description                                        |
