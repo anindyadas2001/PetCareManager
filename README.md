@@ -26,7 +26,7 @@
 - [x] **Source Control Management**: Github
 - [X] **Continuous Integration**: Using Jenkins Continuous monitoring and analysis via SonarQube.
 - [x] **Testing and Analysis**: Extensions such as JUnit & SonarQube.
-- [X] **Continuous Delivery**:
+- [~] **Continuous Delivery**: Using IaC with AWS Cloud to Deliver the App
     - [x] Cloud Native: AWS Architecture:
         - [x] VPC : Single Region
         - [x] Subnets: 
@@ -34,7 +34,9 @@
             - [x] RDS for PostgreSQL frequeltly used data
             - [ ] ELB for
             - [x] IAM for Policy management
-    - [ ] IaC: Ansible + Teraform || `Automate provisioning of AWS infrastructure and environment setup.` 
+    - [ ] IaC: Automate provisioning of AWS infrastructure and environment setup
+        - [ ] Ansible
+        - [ ] Teraform
 - [x] **Linux Shell & Networking**: Basic Linux and networking configurations for server management.
 
 ##  **Technologies**
