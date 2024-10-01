@@ -66,10 +66,10 @@
 
 ## 🚀 **Setup Instructions**
 
-### 1️⃣ **Clone the Repository**
+### 1️⃣ **Clone the Refferance Repository**
 ```bash
-git clone https://github.com/anindyadas2001/PetCareManager.git
-cd PetCareManager
+git clone https://github.com/spring-projects/spring-petclinic.git
+cd spring-petclinic
 ```
 
 
@@ -77,9 +77,11 @@ cd PetCareManager
 - Navigate to the `src/main/resources` directory and locate the `application.properties` file.
 - Update it with your PostgreSQL credentials:
 ```properties
-spring.datasource.url=jdbc:postgresql://<DB_HOST>:<DB_PORT>/<DB_NAME>
-spring.datasource.username=<USERNAME>
-spring.datasource.password=<PASSWORD>
+spring.datasource.url=jdbc:postgresql://localhost:5432/petclinic
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=org.postgresql.Driver
+spring.jpa.hibernate.ddl-auto=update
 ```
 > [!Note]
 > Ensure PostgreSQL is installed and running on your local/remote server before proceeding.
@@ -88,7 +90,8 @@ spring.datasource.password=<PASSWORD>
 ### 3️⃣ **Build and Run the Application**
 - To build and run the application, execute the following Maven command:
 ```bash
-./mvnw spring-boot:run
+./mvnw package
+java -jar target/*.jar
 ```
 > [!Tip]
 > You can access the running application at `http://localhost:8080` after successful execution.
@@ -137,7 +140,7 @@ pipeline {
 > [!Note]
 > Use Jenkins to schedule automated builds on every commit.
 
-
+<!--
 ### 6️⃣ **Infrastructure Setup with Ansible**
 - Provision the necessary AWS infrastructure using Ansible:
     - EC2: To host the web application.
@@ -149,9 +152,9 @@ ansible-playbook -i inventory setup.yml
 ```
 > [!Note]
 > Ensure your AWS credentials are configured and the necessary IAM roles are in place before running the playbook.
+-->
 
-
-### 7️⃣ **Monitoring and Code Quality**
+### 6️⃣ **Monitoring and Code Quality**
 - Use SonarQube to ensure code quality and reduce technical debt.
 - Set up SonarQube by running the following command:
 ```bash
