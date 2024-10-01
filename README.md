@@ -42,8 +42,8 @@
 | **Linux**              | Shell commands for server and network management.  |
 
 ## 🌐 **System Architecture**
-
-![System Architecture](https://not. uploaded. yet.png)
+- (CI) Pipeline 
+![Continuous integration](https://github.com/anindyadas2001/PetCareManager/blob/be6cf4a0c8dd93db669319ffdb0fdd096d7a474b/SDLC/CI.svg)
 
 ## 🚀 **Setup Instructions**
 
