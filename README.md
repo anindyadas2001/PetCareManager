@@ -29,7 +29,7 @@
        ` Reffer to the **Features & Technologies** for the progress  ` <br/> 
        `The overview is provided for now ` <br/>
         **Progress Bar** <br/> 
-        <div style="background-color: #f0f0f0; width: 100%; height: 20px; border-radius: 10px; overflow: hidden;"> <div style="background-color: #4CAF50; width: 72.22%; height: 100%; border-radius: 10px;"></div> <div style="background-color: #FF9800; width: 27.78%; height: 100%; border-radius: 10px;"></div> </div>
+       <span style="background-color: #000; padding: 2px; border-radius: 10px;"> <span style="background-color: #34C759; width: 72.22%; height: 18px; border-radius: 10px;"></span> <span style="background-color: #FFFFFF; width: 27.78%; height: 18px; border-radius: 10px;"></span> </span>
 
 
 ## 🎯 **Features & Technologies**
