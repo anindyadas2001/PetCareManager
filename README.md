@@ -23,7 +23,7 @@
 
 
 ### ⌛ **Completion Percentage**
-[##################################################------] 72.22%
+[##################################################------] 72.22% <b/>
 ⭐` The Project is yet under Dvelopment, most if it has been completed.` 
 > -  Reffer to the **Features & Technologies** for the progress 
 > -  The overview is provided for now
