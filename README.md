@@ -42,12 +42,15 @@
 
 ##  **Technologies**
 ## 🌐 **System Architecture**
-- [x] Continuous integration Phase
+- [x] `Continuous integration Phase`
 ![CI Pipeline ](https://github.com/anindyadas2001/PetCareManager/blob/be6cf4a0c8dd93db669319ffdb0fdd096d7a474b/SDLC/CI.svg)
 
-/*
+<!--
 - [ ] Infrastructure as Code
-*/
+-->
+
+- [x] `AWS Architecture`
+![CD Pipeline]()
 
 ## 🚀 **Setup Instructions**
 
