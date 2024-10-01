@@ -22,7 +22,7 @@
 > - The project leverages various AWS services for deployment and Ansible for Infrastructure as Code (IaC).
 
 
-### ⌛ **Completion Percentage**
+### ⌛ Completion Percentage
 [##################################################------] 72.22%  <b/>
 
 ⭐` The Project is yet under Dvelopment, most if it has been completed.` 
