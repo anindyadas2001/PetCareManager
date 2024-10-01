@@ -23,7 +23,10 @@
 - [x] **Java App Development**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
 - [x] **Database**: PostgreSQL for handling interconnected entities with relational data models.
 - [x] **Source Control Management**: Github
-- [X] **Continuous Integration**: Using Jenkins Continuous monitoring and analysis via SonarQube.
+- [X] **Continuous Integration**: Using Jenkins
+    - [x] JUnit Exteension for Testing
+    - [x] SonarQube for Continuous monitoring, analysis and Report visualisation.
+    - [ ] Storing the generated Report.
 - [x] **Testing and Analysis**: Extensions such as JUnit & SonarQube.
 - [x] **Continuous Delivery**: Using IaC with AWS Cloud to Deliver the App
     - [x] Cloud Native: AWS Architecture:
