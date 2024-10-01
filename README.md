@@ -10,7 +10,6 @@
 ![SonarQube](https://img.shields.io/badge/SonarQube-Code%20Quality-critical)
 ![Ansible](https://img.shields.io/badge/Ansible-IaC-red)
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
-![License](https://img.shields.io/github/license/your-username/spring-petcare-manager)
 
 
 **Spring PetCare Manager** [ (click for app repo) ](https://github.com/anindyadas2001/spring-petclinic) is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records.
