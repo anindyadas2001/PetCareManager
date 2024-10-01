@@ -23,9 +23,33 @@
 
 
 ### ⌛ **Completion Percentage**
-[##################################################------] 72.22%  <b/>
+<style>
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar-inner {
+  height: 100%;
+  background-color: #4CAF50;
+  width: 72.22%;
+  border-radius: 10px;
+}
+
+.progress-bar-inner.incomplete {
+  background-color: #FF9800;
+}
+</style>
+
+<div class='progress-bar'>
+  <div class='progress-bar-inner' style='width: 72.22%'></div>
+</div>
+
 ```
-# The Project is yet under Dvelopment, most if it has been completed. 
+# The Project is yet under Dvelopment, most if it has been completed.
 > -  Reffer to the **Features & Technologies** for the progress 
 > -  The overview is provided for now
 ```
