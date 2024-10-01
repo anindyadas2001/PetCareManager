@@ -4,12 +4,18 @@
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
+![Draw.io](https://img.shields.io/badge/Draw.io-Diagramming%20Tool-FF73DB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue)
 ![Tomcat](https://img.shields.io/badge/Tomcat-9.0-yellowgreen)
+![Github](https://img.shields.io/badge/Github-Source%20Control%20Management-blue.svg)
+![JUnit](https://img.shields.io/badge/JUnit-Testing%20Extension-orange)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-orange)
 ![SonarQube](https://img.shields.io/badge/SonarQube-Code%20Quality-critical)
 ![Ansible](https://img.shields.io/badge/Ansible-IaC-red)
+![Terraform](https://img.shields.io/badge/Terraform-IaC%20Tool-red)
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
+![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
+
 
 
 **Spring PetCare Manager** [ (click for app repo) ](https://github.com/anindyadas2001/spring-petclinic) is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records.
@@ -20,7 +26,7 @@
 
 
 ## 🎯 **Features & Technologies**
-- [x] **Java App Development**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
+- [x] **Development**: Java App made using Spring Boot (Manage Pet Owners, Pets, Veterinarians, Appointments, and Services).
 - [x] **Database**: PostgreSQL for handling interconnected entities with relational data models.
 - [x] **Source Control Management**: Github
 - [X] **Continuous Integration**: Using Jenkins
@@ -35,15 +41,13 @@
             - [x] EC2 instances for hosting
             - [x] RDS for PostgreSQL frequeltly used data
             - [ ] S3 for App Rollback storage
-            - [ ] ELB for
             - [x] IAM for Policy management
     - [ ] IaC: Automate provisioning of AWS infrastructure and environment setup
         - [ ] Ansible
         - [ ] Teraform
 - [x] **Linux Shell & Networking**: Basic Linux and networking configurations for server management.
 
-##  **Technologies**
-## 🌐 **System Architecture**
+## 🌐 **System Architecture** made using draw.io
 - [x] `Continuous integration Phase`
 ![CI Pipeline ](https://github.com/anindyadas2001/PetCareManager/blob/be6cf4a0c8dd93db669319ffdb0fdd096d7a474b/SDLC/CI.svg)
 
