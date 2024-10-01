@@ -20,27 +20,24 @@
 > - The project leverages various AWS services for deployment and Ansible for Infrastructure as Code (IaC).
 
 
-## 🎯 **Features**
-- [x] **Entity Management**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
-- [ ] **Database**: PostgreSQL for handling interconnected entities with relational data models.
-- [ ] **CI/CD**: Automated build and deployment using Jenkins.
-- [ ] **Code Quality**: Continuous monitoring and analysis via SonarQube.
-- [ ] **AWS Integration**: EC2 for hosting, RDS for PostgreSQL, and S3 for asset storage.
-- [ ] **Ansible for IaC**: Automate provisioning of AWS infrastructure and environment setup.
-- [ ] **Linux Shell & Networking**: Basic Linux and networking configurations for server management.
+## 🎯 **Features & Technologies**
+- [x] **Java App Development**: Manage Pet Owners, Pets, Veterinarians, Appointments, and Services.
+- [x] **Database**: PostgreSQL for handling interconnected entities with relational data models.
+- [x] **Source Control Management**: Github
+- [X] **Continuous Integration**: Using Jenkins Continuous monitoring and analysis via SonarQube.
+- [x] **Testing and Analysis**: Extensions such as JUnit & SonarQube.
+- [X] **Continuous Delivery**:
+    - [x] Cloud Native: AWS Architecture:
+        - [x] VPC : Single Region
+        - [x] Subnets: 
+            - [x] EC2 for hosting
+            - [x] RDS for PostgreSQL frequeltly used data
+            - [ ] ELB for
+            - [x] IAM for Policy management
+    - [ ] IaC: Ansible + Teraform || `Automate provisioning of AWS infrastructure and environment setup.` 
+- [x] **Linux Shell & Networking**: Basic Linux and networking configurations for server management.
 
-## 🛠️ **Technologies**
-| Technology            | Description                                        |
-|-----------------------|----------------------------------------------------|
-| **Java (Spring Boot)** | Backend framework for developing the web app.      |
-| **PostgreSQL**         | Database for managing interconnected entities.     |
-| **Tomcat**             | Web server to deploy the Spring Boot app.          |
-| **Jenkins**            | Automates CI/CD pipeline for seamless integration. |
-| **SonarQube**          | Ensures code quality and reduces technical debt.   |
-| **AWS**                | Cloud infrastructure (EC2, RDS, S3, IAM).         |
-| **Ansible**            | Infrastructure automation using playbooks.         |
-| **Linux**              | Shell commands for server and network management.  |
-
+##  **Technologies**
 ## 🌐 **System Architecture**
 - (CI) Pipeline 
 ![Continuous integration](https://github.com/anindyadas2001/PetCareManager/blob/be6cf4a0c8dd93db669319ffdb0fdd096d7a474b/SDLC/CI.svg)
