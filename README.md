@@ -26,12 +26,13 @@
 - [x] **Source Control Management**: Github
 - [X] **Continuous Integration**: Using Jenkins Continuous monitoring and analysis via SonarQube.
 - [x] **Testing and Analysis**: Extensions such as JUnit & SonarQube.
-- [~] **Continuous Delivery**: Using IaC with AWS Cloud to Deliver the App
+- [x] **Continuous Delivery**: Using IaC with AWS Cloud to Deliver the App
     - [x] Cloud Native: AWS Architecture:
         - [x] VPC : Single Region
         - [x] Subnets: 
-            - [x] EC2 for hosting
+            - [x] EC2 instances for hosting
             - [x] RDS for PostgreSQL frequeltly used data
+            - [ ] S3 for App Rollback storage
             - [ ] ELB for
             - [x] IAM for Policy management
     - [ ] IaC: Automate provisioning of AWS infrastructure and environment setup
@@ -41,8 +42,12 @@
 
 ##  **Technologies**
 ## 🌐 **System Architecture**
-- (CI) Pipeline 
-![Continuous integration](https://github.com/anindyadas2001/PetCareManager/blob/be6cf4a0c8dd93db669319ffdb0fdd096d7a474b/SDLC/CI.svg)
+- [x] Continuous integration Phase
+![CI Pipeline ](https://github.com/anindyadas2001/PetCareManager/blob/be6cf4a0c8dd93db669319ffdb0fdd096d7a474b/SDLC/CI.svg)
+
+/*
+- [ ] Infrastructure as Code
+*/
 
 ## 🚀 **Setup Instructions**
 
@@ -151,10 +156,4 @@ sonar-scanner -Dsonar.projectKey=PetCareManager
 - Built a scalable Spring Boot web application and deployed it on Apache Tomcat.
 - Automated build, test, and deployment using a Jenkins CI/CD pipeline and SonarQube for code quality checks.
 - Provisioned and managed AWS infrastructure using Ansible with a focus on Infrastructure as Code (IaC).
-
-### **Useful Links**
-- [Jenkins Documentation](https://www.jenkins.io/doc/)
-- [SonarQube Documentation](https://docs.sonarqube.org/latest/)
-- [Ansible Documentation](https://docs.ansible.com/)
-- [Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/)
 
