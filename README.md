@@ -27,9 +27,15 @@
 ### ⌛ **Completion Percentage**
 ⭐` The Project is yet under Dvelopment, most if it has been completed.` <br/> 
        ` Reffer to the **Features & Technologies** for the progress  ` <br/> 
-       `The overview is provided for now ` <br/>
-        **Progress Bar** <br/> 
-       <span style="background-color: #000; padding: 2px; border-radius: 10px;"> <span style="background-color: #34C759; width: 72.22%; height: 18px; border-radius: 10px;"></span> <span style="background-color: #FFFFFF; width: 27.78%; height: 18px; border-radius: 10px;"></span> </span>
+       ` The overview is provided for now ` <br/>
+       --------------
+        **Progress Bar**
+       --------------
+       
+       <span style=\"background-color: #000; padding: 2px; border-radius: 10px;\">
+         <span style=\"background-color: #34C759; width: 72.22%; height: 18px; border-radius: 10px;\"></span>
+         <span style=\"background-color: #FFFFFF; width: 27.78%; height: 18px; border-radius: 10px;\"></span>
+       </span>
 
 
 ## 🎯 **Features & Technologies**
