@@ -14,7 +14,6 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
 ![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
 
----
 
 **Spring PetCare Manager** [ (click for app repo) ](https://github.com/anindyadas2001/spring-petclinic) is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records.
 ## ➡️ Further Developments are made in this repository:
@@ -22,21 +21,14 @@
 > - The backend is powered by PostgreSQL, and the app is deployed using Tomcat, integrated with Jenkins CI/CD pipeline, and SonarQube for code quality checks.
 > - The project leverages various AWS services for deployment and Ansible for Infrastructure as Code (IaC).
 
----
 
 ### ⌛ **Completion Percentage**
 ⭐` The Project is yet under Dvelopment, most if it has been completed.` <br/> 
        ` Reffer to the **Features & Technologies** for the progress  ` <br/> 
        ` The overview is provided for now ` <br/>
-       --------------
-        **Progress Bar**
-       --------------
-       
-       <span style=\"background-color: #000; padding: 2px; border-radius: 10px;\">
-         <span style=\"background-color: #34C759; width: 72.22%; height: 18px; border-radius: 10px;\"></span>
-         <span style=\"background-color: #FFFFFF; width: 27.78%; height: 18px; border-radius: 10px;\"></span>
-       </span>
+[##################################################------] 72.22%
 
+---
 
 ## 🎯 **Features & Technologies**
 - [x] **Development**: Java App made using Spring Boot (Manage Pet Owners, Pets, Veterinarians, Appointments, and Services).
