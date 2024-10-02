@@ -62,7 +62,7 @@
 -->
 
 - [x] `AWS Architecture`
-![CD Pipeline](https://github.com/anindyadas2001/PetCareManager/blob/9c01a57d834e84c8fd1e0fc8d177d0dd0f2e3547/SDLC/AWS(no-IaC).svg)
+![CD Pipeline](https://github.com/anindyadas2001/PetCareManager/blob/133b18599f79c6160e6a7fa6ce88422f61a33154/SDLC/AWS(no-IaC).svg)
 
 ## 🚀 **Java App Modification Instructions**
 
