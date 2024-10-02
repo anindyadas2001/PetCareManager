@@ -64,7 +64,7 @@
 - [x] `AWS Architecture`
 ![CD Pipeline]()
 
-## 🚀 **Setup Instructions**
+## 🚀 **Java App Modification Instructions**
 
 ### 1️⃣ **Clone the Refferance Repository**
 ```bash
@@ -159,6 +159,29 @@ ansible-playbook -i inventory setup.yml
 - Set up SonarQube by running the following command:
 ```bash
 sonar-scanner -Dsonar.projectKey=PetCareManager
+
+```
+
+## **AWS Services Modifications:**
+- Connecting Tomcat to EBS:
+    - [Reffer to this](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html)
+- In Private EC2 instance to recognise the data inside RDS run the following commands:
+```bash
+# To Update all dependencies
+sudo yum update && upgrade
+
+# To install PostgreSQL
+sudo yum install postgresql
+
+# To cheak version
+psql --version
+
+#Connect to the RDS database
+sudo su
+psql -h <RDS_endpoint> -U <USERNAME> -d <DATABASE_NAME> -p <port number> --sslmode=verify-full
+
+#Verify and show data base:
+\l
 
 ```
 
