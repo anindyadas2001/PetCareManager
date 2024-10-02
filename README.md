@@ -54,15 +54,12 @@
 - [x] **Linux Shell & Networking**: Basic Linux and networking configurations for server management.
 
 ## 🌐 **System Architecture** made using draw.io
-- [x] `Continuous integration Phase`
-![CI Pipeline ](https://github.com/anindyadas2001/PetCareManager/blob/be6cf4a0c8dd93db669319ffdb0fdd096d7a474b/SDLC/CI.svg)
+- [x] `CI/CD Pipeline - NON IaC`
+![CI+AWS without IAC](https://github.com/anindyadas2001/PetCareManager/blob/5725416e1c202b149e853a19580cc3b45a0e1000/SDLC/CICDnoIAC.svg)
 
 <!--
 - [ ] Infrastructure as Code
 -->
-
-- [x] `AWS Architecture`
-![CD Pipeline](https://github.com/anindyadas2001/PetCareManager/blob/133b18599f79c6160e6a7fa6ce88422f61a33154/SDLC/AWS(no-IaC).svg)
 
 ## 🚀 **Java App Modification Instructions**
 
