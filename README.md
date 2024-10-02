@@ -15,7 +15,8 @@
 ![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
 
 
-**Spring PetCare Manager** [ (Referance) ](https://github.com/anindyadas2001/spring-petclinic) is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records.
+**Spring PetCare Manager** improves the [Referance App](https://github.com/anindyadas2001/spring-petclinic) which was is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records. It adds a robust DevOps Pipeline to make the app deliverable.
+
 ## ➡️ Further Developments are made in this repository:
 ***👉 Here, the app is deployed using a seamlessly automated DevOps pipeline :***
 > - Replaced H2 database with PostGre SQL,
