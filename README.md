@@ -19,10 +19,10 @@
 
 ## ➡️ Further Developments are made in this repository:
 ***👉 Here, the app is deployed using a seamlessly automated DevOps pipeline :***
-> - Replaced H2 database with PostGre SQL,
+> - Replaced H2 Engine with PostGre SQL database
 > - Made a Jenkins pipeline containing JUnit and SonarQube extensions.
 > - Developed a enterprise with Dev and QA Tomcat enviromnents with a stage gate.
-> - Implemented IaC with Teraform creating and Ansible for configuring resources/services in the AWS architechure.
+> - Implemented IaC with Teraform creating and Ansible for configuring resources/services in the AWS architechure, which was designed with security measures in mind
 
 
 ### ⌛ **Completion Percentage:** = 94.12%
