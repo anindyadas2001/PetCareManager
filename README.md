@@ -203,8 +203,8 @@ echo "Backup complete. File uploaded to $S3_PATH"
     > Add a cron entry to run the script at a specific time ``
   
 - Connecting Tomcat to EBS:
-    - ![Java app to EBS](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html)
-    - ![Elastic Beanstalk & Tomcat](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html)
+    - [Java app to EBS](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html)
+    - [Elastic Beanstalk & Tomcat](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html)
     
 - In Private EC2 instance to recognise the data inside RDS run the following commands:
 ```bash
