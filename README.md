@@ -16,7 +16,7 @@
 
 
 **Spring PetCare Manager** improves the [Referance App](https://github.com/anindyadas2001/spring-petclinic) which was is a web application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records. It adds a robust DevOps Pipeline to make the app deliverable. <b/>
-`As per the` [directory-map](https://github.com/anindyadas2001/PetCareManager/blob/fe3f1b1e70ca2974efb9233d89d99303f003798f/directory-map.txt) all files to be uploaded soon.
+As per the [directory-map](https://github.com/anindyadas2001/PetCareManager/blob/fe3f1b1e70ca2974efb9233d89d99303f003798f/directory-map.txt) all files to be uploaded soon.
 
 ## ➡️ Further Developments are made in this repository:
 ***👉 Here, the app is deployed using a seamlessly automated DevOps pipeline :***
