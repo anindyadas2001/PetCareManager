@@ -163,6 +163,45 @@ sonar-scanner -Dsonar.projectKey=PetCareManager
 ```
 
 ## **AWS Services Modifications:**
+- IAM Role for S3 Access:
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:PutObject",
+      "Resource": "arn:aws:s3:::your-bucket-name/*"
+    }
+  ]
+}
+```
+
+- Create a Backup Script:
+``` bash
+#!/bin/bash
+
+# Variables
+APP_DIR="/path/to/your/java/app"  # The directory where your Java app is located
+BACKUP_FILE="/tmp/java-app-backup-$(date +%Y%m%d%H%M%S).tar.gz"
+S3_BUCKET="your-bucket-name"
+S3_PATH="s3://${S3_BUCKET}/backups/java-app-$(date +%Y%m%d%H%M%S).tar.gz"
+
+# Create a tar.gz backup of the Java app directory
+tar -czvf $BACKUP_FILE -C $APP_DIR .
+
+# Upload the backup to S3
+aws s3 cp $BACKUP_FILE $S3_PATH
+
+# Optionally, remove the local backup file
+rm -f $BACKUP_FILE
+
+echo "Backup complete. File uploaded to $S3_PATH"
+```
+> Automate the Script Execution:
+    > create a cron job `$ crontab -e`
+    > Add a cron entry to run the script at a specific time ``
+  
 - Connecting Tomcat to EBS:
     - ![Java app to EBS](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html)
     - ![Elastic Beanstalk & Tomcat](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html)
@@ -180,10 +219,10 @@ psql --version
 
 #Connect to the RDS database
 sudo su
-psql -h <RDS_endpoint> -U <USERNAME> -d <DATABASE_NAME> -p <port number> --sslmode=verify-full
+psql -h <RDS_endpoint> -U <USERNAME> -d <DATABASE_NAME> -p 5432 --sslmode=verify-full
 
 #Verify and show data base:
-\l
+SELECT * FROM pg_database
 
 ```
 
