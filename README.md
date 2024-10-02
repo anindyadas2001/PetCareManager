@@ -1,4 +1,4 @@
-# 🐾 Spring PetCare Manager 
+# 🐾 Spring PetCare Manager ![94.12%](https://progress-bar.xyz/94)
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
@@ -25,9 +25,6 @@
 > - Developed a enterprise with Dev and QA Tomcat enviromnents with a stage gate.
 > - Implemented IaC with Teraform creating and Ansible for configuring resources/services in the AWS architechure, which was designed with security measures in mind
 
-
-### ⌛ **Completion Percentage:** = ![94.12%](https://progress-bar.xyz/94)
-> -  Reffer to the **Features & Technologies** for the progress 
 
 ## 🎯 **Features & Technologies**
 - [x] **Development**: Java App made using Spring Boot (Manage Pet Owners, Pets, Veterinarians, Appointments, and Services).
