@@ -26,7 +26,7 @@
 > - Implemented IaC with Teraform creating and Ansible for configuring resources/services in the AWS architechure, which was designed with security measures in mind
 
 
-### ⌛ **Completion Percentage:** = ![94.12%](https://progress-bar.xyz/94.12)
+### ⌛ **Completion Percentage:** = ![94.12%](https://progress-bar.xyz/94)
 > -  Reffer to the **Features & Technologies** for the progress 
 
 ## 🎯 **Features & Technologies**
