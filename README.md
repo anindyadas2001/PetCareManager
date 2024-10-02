@@ -62,7 +62,7 @@
 -->
 
 - [x] `AWS Architecture`
-![CD Pipeline]()
+![CD Pipeline](https://github.com/anindyadas2001/PetCareManager/blob/9c01a57d834e84c8fd1e0fc8d177d0dd0f2e3547/SDLC/AWS(no-IaC).svg)
 
 ## 🚀 **Java App Modification Instructions**
 
@@ -164,7 +164,9 @@ sonar-scanner -Dsonar.projectKey=PetCareManager
 
 ## **AWS Services Modifications:**
 - Connecting Tomcat to EBS:
-    - [Reffer to this](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html)
+    - ![Java app to EBS](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_Java.html)
+    - ![Elastic Beanstalk & Tomcat](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/java-tomcat-platform.html)
+    
 - In Private EC2 instance to recognise the data inside RDS run the following commands:
 ```bash
 # To Update all dependencies
