@@ -21,10 +21,10 @@
 > - Replaced H2 database with PostGre SQL,
 > - Made a Jenkins pipeline containing JUnit and SonarQube extensions.
 > - Developed a enterprise with Dev and QA Tomcat enviromnents with a stage gate.
-> - Implemented IaC with Ansible and Teraform for the AWS architechure.
+> - Implemented IaC with Teraform creating and Ansible for configuring resources/services in the AWS architechure.
 
 
-### ⌛ **Completion Percentage:** = 73%
+### ⌛ **Completion Percentage:** = 94.12%
 > -  Reffer to the **Features & Technologies** for the progress 
 
 ## 🎯 **Features & Technologies**
@@ -42,7 +42,7 @@
         - [x] Subnets: 
             - [x] EC2 instances for hosting
             - [x] RDS for PostgreSQL frequeltly used data
-            - [ ] S3 for App Rollback storage
+            - [x] S3 for App Rollback storage
             - [x] IAM for Policy management
     - [ ] IaC: Automate provisioning of AWS infrastructure and environment setup
         - [ ] Ansible
