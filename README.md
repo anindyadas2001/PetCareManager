@@ -24,11 +24,8 @@
 > - Implemented IaC with Ansible and Teraform for the AWS architechure.
 
 
-```
 ⌛ **Completion Percentage:** = 73%
 > -  Reffer to the **Features & Technologies** for the progress 
-> -  The overview is provided for now
-```
 ---
 
 ## 🎯 **Features & Technologies**
