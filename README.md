@@ -24,9 +24,8 @@
 > - Implemented IaC with Ansible and Teraform for the AWS architechure.
 
 
-⌛ **Completion Percentage:** = 73%
+### ⌛ **Completion Percentage:** = 73%
 > -  Reffer to the **Features & Technologies** for the progress 
----
 
 ## 🎯 **Features & Technologies**
 - [x] **Development**: Java App made using Spring Boot (Manage Pet Owners, Pets, Veterinarians, Appointments, and Services).
