@@ -1,0 +1,48 @@
+PetCareManager/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── petcaremanager/
+│   │   │           ├── controllers/
+│   │   │           │   └── ...
+│   │   │           ├── services/
+│   │   │           │   └── ...
+│   │   │           ├── models/
+│   │   │           │   └── ...
+│   │   │           ├── config/
+│   │   │           │   └── ...
+│   │   │           └── ...
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── ...
+│   └── test/
+│       ├── java/
+│       │   └── com/
+│       │       └── petcaremanager/
+│       │           └── ...
+│       └── resources/
+│           └── ...
+├── ansible/
+│   ├── hosts
+│   ├── playbooks/
+│   │   └── deploy.yml
+│   ├── roles/
+│   │   └── petclinic/
+│   │       ├── tasks/
+│   │       │   └── main.yml
+│   │       ├── templates/
+│   │       │   └── application.properties.j2
+│   │       └── files/
+│   │           └── petclinic.war
+│   └── ansible.cfg
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   ├── outputs.tf
+│   └── terraform.tfstate
+├── Jenkinsfile
+├── pom.xml
+├── README.md
+├── LICENSE
+└── directory-map.txt
