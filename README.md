@@ -1,6 +1,23 @@
 # 🐾 Spring PetCare Manager ![94.12%](https://progress-bar.xyz/94)
 
-<div class="tag-container">
+
+<!---
+
+![Java](https://img.shields.io/badge/Java-17-blue.svg)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
+![Draw.io](https://img.shields.io/badge/Draw.io-Diagramming%20Tool-FF73DB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13-blue)
+![Tomcat](https://img.shields.io/badge/Tomcat-9.0-yellowgreen)
+![Github](https://img.shields.io/badge/Github-Source%20Control%20Management-blue.svg)
+![JUnit](https://img.shields.io/badge/JUnit-Testing%20Extension-orange)
+![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-orange)
+![SonarQube](https://img.shields.io/badge/SonarQube-Code%20Quality-critical)
+![Ansible](https://img.shields.io/badge/Ansible-IaC-red)
+![Terraform](https://img.shields.io/badge/Terraform-IaC%20Tool-red)
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
+![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
+--->
+<div style="border: 2px solid black; padding: 10px; border-radius: 8px;">
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
@@ -16,9 +33,8 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
 ![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
 
-
-  
 </div>
+
 
 
 
