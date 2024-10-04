@@ -19,7 +19,7 @@
 --->
 
 
-<table style="border: 5px solid black; border-radius: 8px; padding: 10px;">
+<table style="border: 2px solid black; border-radius: 16px; padding: 10px;">
   <tr>
     <td>
 
