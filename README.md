@@ -1,5 +1,7 @@
 # 🐾 Spring PetCare Manager ![94.12%](https://progress-bar.xyz/94)
 
+<div class="tag-container">
+
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
 ![Draw.io](https://img.shields.io/badge/Draw.io-Diagramming%20Tool-FF73DB)
@@ -13,6 +15,12 @@
 ![Terraform](https://img.shields.io/badge/Terraform-IaC%20Tool-red)
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
 ![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
+
+
+  
+</div>
+
+
 
 
 **Spring PetCare Manager** improves the [Referance App](https://github.com/anindyadas2001/spring-petclinic) which was a application built with Spring Boot, designed for managing pet care services like appointments, veterinarian schedules, and pet records. It adds a robust DevOps Pipeline to make the app deliverable.
