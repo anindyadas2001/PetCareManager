@@ -19,9 +19,9 @@
 --->
 
 
-<table style="border: 2px solid black; border-radius: 8px; padding: 10px;">
+<table style="border: 5px solid black; padding: 10px;">
   <tr>
-    <td>
+    
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
