@@ -17,7 +17,11 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
 ![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
 --->
-<div style="border: 2px solid black; padding: 10px; border-radius: 8px;">
+
+
+<table style="border: 2px solid black; border-radius: 8px; padding: 10px;">
+  <tr>
+    <td>
 
 ![Java](https://img.shields.io/badge/Java-17-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.5.4-brightgreen.svg)
@@ -33,7 +37,9 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
 ![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
 
-</div>
+    </td>
+  </tr>
+</table>
 
 
 
