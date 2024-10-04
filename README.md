@@ -37,7 +37,7 @@
 ![AWS](https://img.shields.io/badge/AWS-Cloud%20Deployment-ff9900)
 ![S3](https://img.shields.io/badge/S3-App%20Rollback%20Storage-yellow)
 
-    </td>
+    
   </tr>
 </table>
 
