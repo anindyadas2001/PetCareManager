@@ -80,7 +80,7 @@
 
 ## 🌐 **System Architecture** made using draw.io
 - [x] `CI/CD Pipeline - NON IaC`
-![CI+AWS without IAC](https://github.com/anindyadas2001/PetCareManager/blob/5725416e1c202b149e853a19580cc3b45a0e1000/SDLC/CICDnoIAC.svg)
+![CI+AWS without IAC](https://github.com/anindyadas2001/PetCareManager/blob/d7bc9749c8343b7ee78fd862d9bfdeeca7a8096f/SDLC/cicdnoiac.png)
 
 <!--
 - [ ] Infrastructure as Code
