@@ -1,0 +1,25 @@
+PetCareManager/
+├── Jenkinsfile
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── petcare/
+│       │           ├── MainApplication.java
+│       │           ├── controllers/
+│       │           └── models/
+│       └── resources/
+├── test/
+│   └── java/
+│       └── com/
+│           └── petcare/
+│               └── MainApplicationTest.java
+├── sonar-project.properties
+├── pom.xml
+├── scripts/
+│   ├── deploy.sh
+│   └── rollback.sh
+│── .aws/
+│   ├── config
+│   └── credentials
+└── directory-map.txt
