@@ -93,8 +93,8 @@ The project will be completed by 24th October.
 
 ### 1️⃣ **Clone the Refferance Repository**
 ```bash
-git clone https://github.com/spring-projects/spring-petclinic.git
-cd spring-petclinic
+https://github.com/anindyadas2001/PetCareManager.git
+cd PetCareManager
 ```
 ## Extract the 
 ```
