@@ -96,7 +96,10 @@ The project will be completed by 24th October.
 git clone https://github.com/spring-projects/spring-petclinic.git
 cd spring-petclinic
 ```
-
+## Extract the 
+```
+extractdir.zip
+```
 
 ### 2️⃣ **Database Configuration (PostgreSQL)**
 - Navigate to the `src/main/resources` directory and locate the `application.properties` file.
